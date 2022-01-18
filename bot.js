@@ -1,3 +1,22 @@
+Skip to content
+Xfek
+/
+Xfek
+Public
+forked from ameer-kallumthodi/Xfek
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Xfek/bot.js
+@souravkl11
+souravkl11 FIXED ERRORS 🛠✅
+ 13 contributors
+412 lines (355 sloc)  24.2 KB
 /* Copyright (C) 2020 Yusuf Usta.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
@@ -139,7 +158,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ Pikachu working!')
+            chalk.green.bold('✅ Xfek working!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
@@ -383,7 +402,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ *PIKACHU ERROR FOUND!* ~______~*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ *Xfek ERROR FOUND!* ~______~*' +
                                     '\n\n*🧞‍♂️ ' + error + '*\n\n```*Subscribe channel to get updates and to remove errors:* https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw \n Report errors\njoin with +91 \n https://chat.whatsapp.com/BLdaoLVnX6jFnkKHFjLbH6``` ' 
                                     , MessageType.text);
                             }
@@ -410,3 +429,15 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
 }
 
 whatsAsena();
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
